@@ -1,0 +1,17 @@
+html, body{
+  margin: 0;
+  background: url("http://advisoranalyst.com/glablog/wp-content/uploads/2014/05/thumb_6917_rockpaperscissors.jpg") repeat;
+}
+
+.main{
+  max-width: 720px;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.main img{
+  border: 3px solid #000;
+  border-radius: 3px;
+
+  
+  
