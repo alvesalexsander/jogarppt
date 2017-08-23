@@ -16,3 +16,16 @@ html, body{
   border-radius: 3px;
   margin-left: 20%;
 }
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 720px;
+  background-color: #FFF;
+  margin-top: 200px;
+}
+
+.main img {
+  max-width: 50%;
+}
