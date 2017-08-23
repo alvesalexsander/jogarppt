@@ -1,12 +1,13 @@
 html, body{
   margin: 0;
-  background: url("http://advisoranalyst.com/glablog/wp-content/uploads/2014/05/thumb_6917_rockpaperscissors.jpg") repeat;
+  background: url("http://advisoranalyst.com/glablog/wp-content/uploads/2014/05/thumb_6917_rockpaperscissors.jpg");
 }
 
 .main{
   max-width: 720px;
   background-color: #FFF;
   text-align: center;
+  margin-top: 100px;
 }
 
 .main img{
