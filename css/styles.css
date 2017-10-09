@@ -24,7 +24,7 @@ html, body{
     left: 640px;
     width: 214px;
     height: 360px;
-    background-color: rgba(180, 180, 180, .6);
+    background-color: rgba(180, 180, 180, .0);
     border: none;
 }
 
@@ -52,7 +52,7 @@ html, body{
         left: 75px;
         width: 106px;
         height: 160px;
-        background-color: rgba(180, 180, 180, .6);
+        background-color: rgba(180, 180, 180, .0);
     }
     
 }
