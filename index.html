@@ -1,57 +1,18 @@
 <!DOCTYPE html>
-<lang="pt-br">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <title>Sasha, papel e tesoura u.u</title>
   <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
-  <link type="text/css" rel="stylesheet" href="https://sashaclimax.github.io/jogarppt/css/styles.css">
+  <link type="text/css" rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-  <div class="jumbotron col-md-12 col-sm-12 col-xs-12">
+  <div class="main">
     <img src="http://advisoranalyst.com/glablog/wp-content/uploads/2014/05/thumb_6917_rockpaperscissors.jpg">
+    <button onclick="escolhepedra()" id="pedra"></button>
+    <button onclick="escolhepapel()" id="papel"></button>
+    <button onclick="escolhetesoura()" id="tesoura"></button>
+    
   </div>
-  <script>
-  var userChoice = prompt("Você escolhe pedra, papel ou tesoura?");
-var computerChoice = Math.random();
-if (computerChoice < 0.34) {
-	computerChoice = "pedra";
-} else if(computerChoice <= 0.67) {
-	computerChoice = "papel";
-} else {
-	computerChoice = "tesoura";
-} alert("Eu escolho: " + computerChoice);
-
-var compare = function(choice1, choice2){
-    if (choice1 === choice2){
-        alert("乁( ͠°_ °)ㄏ Empate!");
-    }   
-    else if (choice1 === "pedra"){
-        if (choice2 ==="tesoura"){
-            alert("Você ganhou ᕕ(`益´)ᕗ! Pedra esmaga tesoura!");
-        }
-        else if (choice2 === "papel"){
-            alert("Você perdeu (∩☯ヘ☯)⊃━☆ﾟ.*... Papel embrulha pedra!");
-        }
-    }
-    else if (choice1 === "tesoura"){
-        if (choice2 === "papel"){
-            alert("Você ganhou ᕕ(`益´)ᕗ! Tesoura corta papel");
-        }
-        else if (choice2 === "pedra"){
-            alert("Você perdeu (∩☯ヘ☯)⊃━☆ﾟ.*... Pedra esmaga tesoura!");
-        }
-    }
-    else if (choice1 === "papel"){
-        if (choice2 === "pedra"){
-            alert("Você ganhou ᕕ(`益´)ᕗ! Papel embrulha pedra!");
-        }
-        else if (choice2 === "tesoura"){
-            alert("Você perdeu (∩☯ヘ☯)⊃━☆ﾟ.*... Tesoura corta papel!");
-        }
-    }
-};
-
-compare(userChoice, computerChoice);
-  </script>
+<script src="js/main.js"></script>
 </body>
