@@ -11,7 +11,7 @@ var pedra = document.getElementById("pedra");
 	   computerChoice = "papel";
           } else {
 	   computerChoice = "tesoura";
-          } alert("Eu escolho: " + computerChoice);
+          } alert("Minha vez! Eu escolho: " + computerChoice);
       
           var compare = function(choice1, choice2){
     if (choice1 === choice2){
